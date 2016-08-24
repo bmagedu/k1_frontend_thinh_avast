@@ -305,6 +305,10 @@ header {
     display: block;
 }
 
+#btnClose:hover {
+    cursor: pointer;
+}
+
 .bar-menu-header {
     display: block;
     border-bottom: 2px solid #0087ff;
@@ -348,7 +352,7 @@ header {
     border-left-color: #90909c;
 }
 
-#bar-menu> .fa,
+#project i,
 .fa-fa .fa {
     display: inline-block;
     padding-right: 10px;
@@ -356,6 +360,7 @@ header {
     color: #AAABB6;
     vertical-align: middle;
     width: 10%;
+    line-height: normal;
 }
 
 .protect .fa-chevron-right {
@@ -363,13 +368,17 @@ header {
     color: orange !important;
     font-size: 0.8em !important;
     width: 10%;
-    margin-right: 10px;
+    float: right;
+    line-height: normal;
+    vertical-align: middle;
 }
 
 .protect {
-    display: block;
+    display: inline-block;
     height: 25px;
     line-height: 25px;
+    vertical-align: middle;
+    width: 100%;
 }
 
 .protect span {
@@ -880,7 +889,7 @@ header {
 .mid-8-detail {
     display: inline-block;
     float: left;
-    width: 30%;
+    width: 33.33%;
 }
 
 .mid-8-detail-img {
@@ -902,4 +911,247 @@ header {
     width: 60%;
     color: #cfd0da;
     margin: 0 auto;
+}
+
+
+/****************************************************/
+
+#footer {
+    display: block;
+    background-color: #41424e;
+}
+
+#footer-main {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+#footer-main-body-wrapper:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#footer-main-header {
+    display: block;
+    color: #fff;
+    padding-top: 100px;
+}
+
+#footer-main-header:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#footer-main-header> img {
+    float: left;
+    width: 100px;
+    height: 40px;
+}
+
+#footer-main-header> img:hover {
+    cursor: pointer;
+}
+
+#footer-main-header div {
+    float: right;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+#footer-main-header div:hover {
+    cursor: pointer;
+    background-color: #3c3d48;
+    transition: all 0.8s;
+}
+
+#footer-main-header div img {
+    margin-right: 10px;
+    width: 40px;
+    height: 30px;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+#footer-main-header div span {
+    line-height: normal;
+    vertical-align: middle;
+}
+
+#footer-main-body {
+    display: block;
+    color: #a39d9c;
+    padding: 30px 0;
+}
+
+#footer-main-body:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#intro {
+    float: left;
+    width: 50%;
+    padding: 0 20px 20px 0;
+    font-size: 1.2em;
+}
+
+#intro> p {
+    padding-bottom: 30px;
+}
+
+#intro ul {
+    width: 100%;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+#intro ul li {
+    display: inline-block;
+    width: 24%;
+}
+
+#intro ul li:hover {
+    cursor: pointer;
+}
+
+#intro ul li i {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1.8em;
+}
+
+#intro ul li:hover #intro ul li span {
+    color: #fff !important;
+}
+
+#featured {
+    width: 50%;
+    float: left;
+}
+
+#featured:hover {
+    cursor: pointer;
+}
+
+#featured:after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.featured-main {
+    width: 50%;
+    float: left;
+    padding: 0 30px 30px 10px;
+}
+
+.featured-main-wrapper {
+    height: 130px;
+}
+
+.featured-main-wrapper div {
+    padding-left: 10px;
+    border-left: 1px solid #a39d9c;
+}
+
+.featured-main-wrapper div span {
+    color: #fff;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.featured-main-wrapper div span:hover {
+    color: #a39d9c;
+}
+
+.featured-main-wrapper div p {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 0.9em;
+}
+
+.featured-main-wrapper div p:hover {
+    color: #fff;
+}
+
+#padding {
+    display: block;
+    padding-top: 20px;
+}
+
+#footer-foot {
+    display: block;
+    width: 100%;
+}
+
+#footer-foot-main {
+    display: block;
+    border-bottom: 1px solid #a39d9c;
+    height: 60px;
+}
+
+#footer-wrapper-left {
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+#footer-wrapper-left div {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+#footer-wrapper-left div i {
+    padding-right: 10px;
+}
+
+#footer-wrapper-left div:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+#footer-wrapper-right {
+    float: right;
+}
+
+#footer-wrapper-right i {
+    padding: 0 20px;
+}
+
+#footer-wrapper-right i:hover {
+    cursor: pointer;
+}
+
+#footer-end {
+    font-size: 0.7em;
+}
+
+#footer-end div {
+    padding-top: 15px;
+}
+
+#footer-end-left {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#footer-end-left span:hover {
+    cursor: pointer;
+    color: #fff;
+}
+
+#footer-end-left span {
+    padding: 0 10px;
+}
+
+#footer-end-right {
+    float: right;
 }
